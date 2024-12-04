@@ -1,0 +1,107 @@
+html {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.heading {
+    color: #D3D3D3;
+}
+
+.nav-bar {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    padding: 5px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100vw;
+    margin: 0;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex: 3;
+    text-decoration: none;
+}
+
+.nav-bar ul a {
+    text-decoration: none;
+}
+
+#logo-navbar {
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+    margin: 30px 0;
+    margin-top: 90px;
+}
+
+#hero-text {
+    font-size: 900%;
+    margin: 0;
+    padding: 0;
+}
+
+#new-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#new-banner {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+}
+
+.fa-solid {
+    margin: 20px 5px;
+    color:rgb(48, 48, 48);
+    margin-top: 65px;
+    
+}
+
+.marquee {
+    width: 100vw; /* Full viewport width */
+    height: 200px; /* Height for the marquee */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* For child positioning */
+}
+
+.marquee-content {
+    display: flex; /* Ensure images align horizontally */
+    width: calc(200px * 6); /* Adjust width based on the number of images */
+    animation: marquee 10s linear infinite;
+}
+
+.marquee img {
+    margin-right: 20px; /* Add spacing between images */
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0); /* Start from the left */
+    }
+    to {
+        transform: translateX(-50%); /* Scroll halfway to create a seamless loop */
+    }
+}
