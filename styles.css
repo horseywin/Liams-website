@@ -144,3 +144,35 @@ a {
     margin-left: 30px;
     text-align: center;
 }
+
+footer {
+    height: 120px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#copyright {
+    color: rgb(194, 194, 194)
+}
+
+#footer-logo {
+    font-size: 24px; /* Adjust font size as needed */
+    color: white; /* Text color */
+    background-color: rgb(49, 49, 49);
+    z-index: 1000;
+    width: 10%;
+    text-align: center;
+}
+
+footer hr {
+    width: 100vw;
+    position: relative;
+    top: 37%;
+
+    border: 1px rgb(89, 89, 89) dotted;
+    height: 0;
+}
