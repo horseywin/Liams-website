@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+ 
+
+ .photo-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+ }
+
+ .photo-gallery img {
+    border-radius: 10px;
+    object-fit: cover;
+    max-width: 350px;
+ }
+
+.photo-gallery::after {
+    content: "";
+    width: 200px;
+    
+}
+ 
+#back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+#back-button:hover {
+    color: lightgray;
+}
+
+#title {
+    display: inline; /* Ensures it stays on the same line */
+    vertical-align: middle; /* Aligns with the icon */
+}
