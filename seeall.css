@@ -1,3 +1,7 @@
+* {
+    font-family: Tahoma;
+}
+
 body {
     background-color: black;
     color: white;
@@ -12,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 16px;
     max-width: 1400px;
@@ -26,11 +30,7 @@ body {
     max-width: 350px;
  }
 
-.photo-gallery::after {
-    content: "";
-    width: 200px;
-    
-}
+
  
 #back-button {
     position: absolute;

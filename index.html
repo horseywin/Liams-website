@@ -1,54 +1,164 @@
 <!DOCTYPE html>
-<html>
-    <head lang="en">
-        <meta charset="utf-8">
-        <link href="styles.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/2e84082957.js" crossorigin="anonymous"></script>
-        <title>Website Name</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-92D12YQN9C"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Hi, I am Zachary Cheung, a self-taught coder sharing my projects, coding journey, and love for Python, HTML, and beginner-friendly languages.">
+    <meta name="keywords" content="Zachary Cheung, horseywin, Zachary, Cheung, cheung, coding projects, beginner coder">
+    <meta name="author" content="Zachary Cheung">
+    <meta property="og:title" content="Liam's Workshop">
+    <meta property="og:description" content="Discover Zachary Cheung's coding projects and backstory. Learn about his journey in Python, HTML, and other beginner-friendly languages.">
+    <meta property="og:image" content="https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        gtag('config', 'G-92D12YQN9C');
-        </script>
-    </head>
-    <body>
-        <main>
-            <div class="nav-bar">
-                <img src="Image-circle.svg" id="logo-navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="Projects.html">Projects</a></li>
-                </ul>
-            </div>
-            <div class="hero" id="home">
-                <h1 class="heading" id="hero-text">NAME</h1>
-            </div>
-            <div id="new-items">
-                <div id="new-banner">
-                    <i class="fa-solid fa-bullhorn "></i>
-                        <h3>New</h3>
-                    <i class="fa-solid fa-bullhorn"></i>
-                </div>
-                <p id="new-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu tristique tortor, id feugiat nunc. Curabitur aliquam velit sit amet leo rhoncus, vitae posuere sapien scelerisque. Integer eros neque, congue vitae tincidunt quis, consequat vel nisl. Curabitur quis ligula aliquet, maximus ante non, venenatis eros. Mauris non laoreet ex. Cras sem neque, ultrices ut mi non, suscipit consequat ante. Nulla dignissim interdum cursus. Fusce laoreet justo ante, sit amet tempor enim mattis nec. Cras non libero erat.</p>
-                <div class="new-images">
-                    <div class="new-gallery">
-                        <img src="Image.svg" height="200px" alt="New Projects" />
-                        <img src="Image.svg" height="200px" alt="New Projects" />
-                        <img src="Image.svg" height="200px" alt="New Projects" />
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <hr id="#footer-line">
-            <h2 id="footer-logo">text</h2>
-            <p id="copyright">Copyright 2024 name, Inc.</p>
-        </footer>
-    </body>
+    <title>Liams Workshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicons -->
+    <link rel="icon" href="coding-icon.png" type="image/svg+xml">
+        
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <!--Font-->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92D12YQN9C"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-92D12YQN9C');
+    </script>
+    
+  </head>
+  <body>
+    <div id="navbar">
+        <i class="fa-solid fa-hammer" id="logo"></i>
+        <input type="checkbox" id="hamburger-check">
+        <label for="hamburger-check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <div class="nav-mobile">
+          <a href="#welcome-section">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+      </div>
+      <ul>
+        <li class="slider-button"><a href="#welcome-section">Home</a></li>
+        <li class="slider-button"><a href="#projects">Projects</a></li>
+        <li class="slider-button"><a href="#about">About</a></li>
+        <li class="slider-button"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div id="welcome-section">
+      <h1 id="hero-text">Crafting Beyond Limits!</h1>
+      <h2 id="hero-subtitle">Now with the help of a 3D printer</h2>
+      <a href="#about-title"><button id="view-my-work-button">View my work</button></a>
+    </div>
+    <h1 class="heading">Meet Liam</h1>
+    <h3 class="subtitle">Turning Ideas into Reality with Passion and Precision.</h3>
+    <div id="about">
+        <i class="fa-solid fa-hammer"></i>
+        <div id="about-text-container">
+        <p id="about-description">Hi, I’m Liam, a 13-year-old with a passion for creating incredible things from scratch. Whether it’s cardboard, metal, or plastic, I love turning raw materials into amazing projects. Armed with my trusty laser cutter and my brand-new 3D printer, I’ve brought ideas like Mandalorian armor and a miniature train scene to life. When I’m not crafting, I’m probably planning my next project or teaching others how to build!</p>
+      </div>
+    </div>
+    <div id="services">
+      <h1 class="heading"> What I Bring to the Table</h1>
+      <h3 class="subtitle">Here’s what I specialize in</h3>
+      <div id="service-cards">
+        <div id="service-cards">
+          <div class="service-card">
+            <h2>Cardboard Craftsmanship</h2>
+            <p>With simple materials like cardboard, I create complex shapes and structures, proving that creativity can start with the basics.</p>
+          </div>
+          <div class="service-card">
+            <h2>Laser Cutting Expertise</h2>
+            <p>I use my laser cutter to create precise, detailed designs in metal, wood, and acrylic. From armor plates to intricate model pieces, this tool takes my work to the next level.</p>
+          </div>
+          <div class="service-card">
+            <h2>Painting and Detailing</h2>
+            <p>Attention to detail is everything. Whether it’s weathering Mandalorian armor or adding fine details to my miniature train scenes, I ensure every project looks authentic and polished.</p>
+          </div>
+          <div class="service-card">
+            <h2>3D Printing Mastery</h2>
+            <p>With simple materials like cardboard, I create complex shapes and structures, proving that creativity can start with the basics</p>
+          </div>
+        </div>
+    </div>
+    <h1 class="heading">Projects & Experiments</h1>
+    <h3 class="subtitle">Learning, Growing, and Building Along the Way</h3>
+    <div id="projects">
+      <div class="project-tile" id="tetris-game">
+        <h2 class="project-title">Tetris</h2>
+      </div>
+        <div class="project-tile" id="arithmetic-arranger">
+          <h2 class="project-title">Arithmetic arranger</h2>
+        </div>
+        <div class="project-tile" id="online-bio">
+          <h2 class="project-title">Online Bio</h2>
+        </div>
+      <a href="https://github.com/horseywin/Mock-Linux-Terminal-">
+        <div class="project-tile" id="linux-terminal">
+          <h2 class="project-title">Mock Linux Terminal</h2>
+        </div>
+      </a>
+      <a href="https://github.com/horseywin/Time-adder--python-">
+        <div class="project-tile" id="time_calculator">
+          <h2 class="project-title">Time Calculator</h2>
+        </div>
+      </a>
+    </div>
+    <div id="certifications">
+      <h1 class="heading">Certifications I’ve Earned</h1>
+      <h3 class="subtitle"> Milestones on My Self-Taught Journey</h3>
+      <div id="certifications-container">
+        <div class="certificate">
+          <i class="fa-brands fa-free-code-camp"></i>
+          <h2>Responsive Web Design</h2>
+          <p>Issued by <a class="underline" target="_blank" href="https://www.freecodecamp.org/">FreeCodeCamp</a></p>
+          <button><a target="_blank" href="https://www.freecodecamp.org/certification/Zachary-Cheung/responsive-web-design">View Certificate</a></button>
+        </div>
+        <div class="certificate">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h2>Networking Basics</h2>
+          <p>Issued by <a class="underline" target="_blank" href="https://www.cybrary.it/">Cybrary</a></p>
+          <button><a target="_blank" href="https://app.cybrary.it/courses/api/certificate/CC-f526fc6f-3b57-46cf-8789-f7e4f95b0c69/view">View Certificate</a></button>
+        </div>
+        <div class="certificate">
+          <i class="fa-brands fa-free-code-camp"></i>
+          <h2>Scientific Computing with Python</h2>
+          <p>Issued by <a class="underline" target="_blank" href="https://www.cybrary.it/">Cybrary</a></p>
+          <button><a target="_blank" href="https://www.freecodecamp.org/certification/zachary-cheung/scientific-computing-with-python-v7">View Certificate</a></button>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <h1 class="heading" id="about-heading">Let's work together</h1>
+      <a  href="https://github.com/horseywin" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        <p>Github</p>
+      </a>
+      <a  href="https://www.reddit.com/user/Actual-Smell8272/"  target="_blank">
+        <i class="fa-brands fa-reddit"></i>
+        <p>Reddit</p>
+      </a>
+      <a  href="https://discordlookup.com/user/1119513901613195324"  target="_blank">
+        <i class="fa-brands fa-discord"></i>
+        <p>Discord</p>
+      </a>
+      <a href="mailto:horsey2019@duck.com">
+        <i class="fa-solid fa-envelope"></i>
+        <p>Mail</p>
+      </a>
+      <a href="https://www.freecodecamp.org/Zachary-Cheung" target="_blank">
+        <i class="fa-brands fa-free-code-camp"></i>
+        <p>FreeCodeCamp</p>
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

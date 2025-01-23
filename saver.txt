@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2e84082957.js" crossorigin="anonymous"></script>
+        <title>Website Name</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-92D12YQN9C"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-92D12YQN9C');
+        </script>
+    </head>
+    <body>
+        <main>
+            <div class="nav-bar">
+                <img src="Image-circle.svg" id="logo-navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <div class="hero" id="home">
+                <h1 class="heading" id="hero-text">NAME</h1>
+            </div>
+            <div id="new-items">
+                <div id="new-banner">
+                        <h3>New</h3>
+                </div>
+                <p id="new-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu tristique tortor, id feugiat nunc. Curabitur aliquam velit sit amet leo rhoncus, vitae posuere sapien scelerisque. Integer eros neque, congue vitae tincidunt quis, consequat vel nisl. Curabitur quis ligula aliquet, maximus ante non, venenatis eros. Mauris non laoreet ex. Cras sem neque, ultrices ut mi non, suscipit consequat ante. Nulla dignissim interdum cursus. Fusce laoreet justo ante, sit amet tempor enim mattis nec. Cras non libero erat.</p>
+                <div class="new-images">
+                    <div class="new-gallery">
+                        <img src="Image.svg" height="200px" alt="New Projects" />
+                        <img src="Image.svg" height="200px" alt="New Projects" />
+                        <img src="Image.svg" height="200px" alt="New Projects" />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr id="#footer-line">
+            <h2 id="footer-logo">text</h2>
+            <p id="copyright">Copyright 2024 name, Inc.</p>
+        </footer>
+    </body>
+</html>
