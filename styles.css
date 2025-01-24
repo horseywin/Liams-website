@@ -209,6 +209,11 @@
   
   .nav-mobile a:hover::before {
     left: 00%;
+    color: white;
+  }
+
+  .nav-mobile a:hover {
+    color: white;
   }
   
   #welcome-section {
