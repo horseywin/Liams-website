@@ -39,9 +39,6 @@ function addProject(title, description, imageURLList, popupDivName, projectDivId
 // Tetris
 addProject("Example", "Examples are the backbone of understanding and learning, providing a clear and tangible way to grasp complex concepts. They bridge the gap between theory and practice, showing how ideas work in real-world scenarios. Without examples, even the most well-explained ideas can feel abstract and confusing. Whether you’re coding, solving a math problem, or learning a new skill, examples give you a foundation to build upon. They also inspire creativity by showcasing what’s possible, helping you apply the knowledge to your unique needs. In short, examples aren’t just helpful—they’re essential.", ["example.jpeg", "example2.webp", "example3.avif"], "tetris-popup", "tetris-game");
 
-
-
-
 //THIS IS THE END OF WHERE YOU EDIT
 
 // Function to handle popup exit

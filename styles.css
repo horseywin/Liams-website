@@ -25,6 +25,7 @@
     --nav-bar-hover: #00509e; /* Matches normal text for active links */
     --background-color: #ffffff; /* Crisp white for the primary background */
     --text-highlight-color: rgba(0, 112, 192, 0.1); /* Transparent blue for highlighting text with backgrounds */
+    --footer-color: #004080; /* Deep navy blue for a strong footer contrast */
     scroll-behavior: smooth;
   }
   
@@ -476,6 +477,60 @@
     flex-direction: row;
   }
   
+  footer {
+    position: relative;
+    display: flex;
+    background-color: var(--footer-color);
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #footer-line {
+    position: absolute;
+    width: 70vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35px;
+    border: 2px var(--secondary-color) solid;
+    border-radius: 20px;
+    z-index: 0;
+  }
+
+  #footer-logo {
+    z-index: 2;
+    background-color: var(--footer-color);
+    display: inline-flex;
+    padding: 0 20px;
+    color: white;
+  }
+
+  #copyright-footer {
+    color: var(--subtitle-text);
+  }
+
+  #trademark {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  #trademark h3 {
+    color: var(--nav-bar)
+  }
+
+  #trademark p {
+    color: var(--hover-color);
+    
+  }
+
+  #trademark a {
+    color: yellow;
+    text-decoration: underline;
+  }
+
   /* mobile */
   @media screen and (max-width: 1024px) {
   
